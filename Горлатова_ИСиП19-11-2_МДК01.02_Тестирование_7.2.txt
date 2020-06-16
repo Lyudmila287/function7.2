@@ -1,0 +1,49 @@
+using System;
+
+namespace function
+{
+     class Program
+    {
+        class fun
+        {
+            public int a, b;
+            public void vivod()
+            {
+                Console.WriteLine($"{a}{b} ");
+
+            }
+            public int summ()
+            {
+                return a + b;
+            }
+            public int Max()
+            {
+                Console.WriteLine("Введите два числа : ");
+
+                x = Convert.ToInt32(Console.ReadLine());
+
+                y = Convert.ToInt32(Console.ReadLine());
+                if( a > > b)
+
+                {
+
+                    Console.WriteLine("{0} наибольшее число",a);
+                    return a;
+                }
+
+                else
+
+                {
+
+                    Console.WriteLine("{0} наибольшее число ",b);
+                    return b;
+                }
+
+            }
+        }
+    }
+    static void Main(string[] args)
+    {
+       
+    }
+}
